@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-03-15T20:21:30Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.5.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.89,
+        "LayerNumber": 4,
+        "Name": {
+            "ProjectId": "seths 4layer nano"
+        },
+        "Owner": "Seth Kerr <skerr@aggies.ncat.edu>",
+        "Size": {
+            "X": 20.935,
+            "Y": 51.105
+        }
+    }
+}
