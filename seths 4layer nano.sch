@@ -10727,9 +10727,9 @@ W = angled&lt;p&gt;
 </packages>
 <symbols>
 <symbol name="UA78M05CDCY">
-<pin name="OUT" x="2.54" y="0" length="middle" direction="out"/>
+<pin name="IN" x="2.54" y="0" length="middle" direction="out"/>
 <pin name="COM" x="53.34" y="-2.54" length="middle" direction="pwr" rot="R180"/>
-<pin name="IN" x="53.34" y="0" length="middle" direction="in" rot="R180"/>
+<pin name="OUT" x="53.34" y="0" length="middle" direction="in" rot="R180"/>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="7.62" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="94"/>
 <wire x1="48.26" y1="-7.62" x2="48.26" y2="5.08" width="0.1524" layer="94"/>
@@ -10746,9 +10746,9 @@ W = angled&lt;p&gt;
 <devices>
 <device name="" package="DCY4">
 <connects>
-<connect gate="A" pin="COM" pad="2"/>
-<connect gate="A" pin="IN" pad="3"/>
-<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="COM" pad="2 4"/>
+<connect gate="A" pin="IN" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -10761,8 +10761,8 @@ W = angled&lt;p&gt;
 <device name="DCY4-M" package="DCY4-M">
 <connects>
 <connect gate="A" pin="COM" pad="2"/>
-<connect gate="A" pin="IN" pad="3"/>
-<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="IN" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -10775,8 +10775,8 @@ W = angled&lt;p&gt;
 <device name="DCY4-L" package="DCY4-L">
 <connects>
 <connect gate="A" pin="COM" pad="2"/>
-<connect gate="A" pin="IN" pad="3"/>
-<connect gate="A" pin="OUT" pad="1"/>
+<connect gate="A" pin="IN" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
@@ -10994,38 +10994,38 @@ Source: Samtec TSW.pdf</description>
 <package name="TQFP32">
 <description>TQFP32 Pads</description>
 <text x="-2.235" y="4.780465625" size="0.8128" layer="21">&gt;TQFP32</text>
-<smd name="A8" x="-2.8" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A9" x="-2" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A10" x="-1.2" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A11" x="-0.4" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A12" x="0.4" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A13" x="1.2" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A14" x="2" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A15" x="2.8" y="-0.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A25" x="2.85" y="7.8" dx="0.6" dy="1.905" layer="1" rot="R180"/>
-<smd name="A26" x="2.05" y="7.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A27" x="1.25" y="7.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A28" x="0.45" y="7.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A29" x="-0.35" y="7.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A30" x="-1.15" y="7.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A31" x="-1.95" y="7.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A32" x="-2.75" y="7.8" dx="0.6" dy="1.905" layer="1"/>
-<smd name="A0" x="-4.2" y="6.3" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A1" x="-4.2" y="5.5" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A2" x="-4.2" y="4.7" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A3" x="-4.2" y="3.9" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A4" x="-4.2" y="3.1" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A5" x="-4.2" y="2.3" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A6" x="-4.2" y="1.5" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A7" x="-4.2" y="0.7" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A16" x="4.3" y="0.65" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A17" x="4.3" y="1.5" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A18" x="4.3" y="2.3" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A19" x="4.3" y="3.1" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A20" x="4.3" y="3.9" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A21" x="4.3" y="4.7" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A22" x="4.3" y="5.5" dx="1.905" dy="0.6" layer="1"/>
-<smd name="A23" x="4.3" y="6.35" dx="1.905" dy="0.6" layer="1"/>
+<smd name="A8" x="-2.8" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A9" x="-2" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A10" x="-1.2" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A11" x="-0.4" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A12" x="0.4" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A13" x="1.2" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A14" x="2" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A15" x="2.8" y="-0.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A25" x="2.85" y="7.8" dx="0.4826" dy="1.905" layer="1" rot="R180"/>
+<smd name="A26" x="2.05" y="7.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A27" x="1.25" y="7.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A28" x="0.45" y="7.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A29" x="-0.35" y="7.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A30" x="-1.15" y="7.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A31" x="-1.95" y="7.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A32" x="-2.75" y="7.8" dx="0.4826" dy="1.905" layer="1"/>
+<smd name="A0" x="-4.2" y="6.3" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A1" x="-4.2" y="5.5" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A2" x="-4.2" y="4.7" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A3" x="-4.2" y="3.9" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A4" x="-4.2" y="3.1" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A5" x="-4.2" y="2.3" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A6" x="-4.2" y="1.5" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A7" x="-4.2" y="0.7" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A16" x="4.3" y="0.65" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A17" x="4.3" y="1.5" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A18" x="4.3" y="2.3" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A19" x="4.3" y="3.1" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A20" x="4.3" y="3.9" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A21" x="4.3" y="4.7" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A22" x="4.3" y="5.5" dx="1.905" dy="0.4826" layer="1"/>
+<smd name="A23" x="4.3" y="6.35" dx="1.905" dy="0.4826" layer="1"/>
 <wire x1="-3.5" y1="7" x2="3.5" y2="7" width="0.127" layer="49"/>
 <wire x1="3.5" y1="7" x2="3.5" y2="0" width="0.127" layer="49"/>
 <wire x1="3.5" y1="0" x2="-3.5" y2="0" width="0.127" layer="49"/>
@@ -11172,7 +11172,7 @@ Source: Samtec TSW.pdf</description>
 <part name="IC1" library="FT232RL" deviceset="FT232RL" device=""/>
 <part name="J1" library="1981568-1" deviceset="1981568-1" device=""/>
 <part name="U$1" library="MBR0520LT1G" deviceset="MBR0520LT1G" device=""/>
-<part name="U1" library="UA78M05CDCYR" deviceset="UA78M05CDCYR" device=""/>
+<part name="U1" library="UA78M05CDCYR" deviceset="UA78M05CDCYR" device="DCY4-L"/>
 <part name="X1" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-115-*-G-S" device="" technology="07"/>
 <part name="X2" library="con-samtec" library_urn="urn:adsk.eagle:library:184" deviceset="TSW-115-*-G-S" device="" technology="07"/>
 <part name="U$2" library="ATMega328p" deviceset="ATMEGA328P" device=""/>
@@ -11476,6 +11476,10 @@ Source: Samtec TSW.pdf</description>
 <pinref part="SUPPLY24" gate="GND" pin="GND"/>
 <junction x="195.58" y="104.14"/>
 <wire x1="195.58" y1="101.6" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="IC1" gate="G$1" pin="TEST"/>
+<wire x1="198.12" y1="124.46" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="195.58" y1="124.46" x2="195.58" y2="121.92" width="0.1524" layer="91"/>
+<junction x="195.58" y="121.92"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="2"/>
@@ -11715,10 +11719,10 @@ Source: Samtec TSW.pdf</description>
 <junction x="50.8" y="71.12"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 <label x="50.8" y="73.66" size="1.778" layer="95"/>
-<pinref part="U1" gate="A" pin="OUT"/>
-<wire x1="58.42" y1="101.6" x2="58.42" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="58.42" y1="86.36" x2="50.8" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="86.36" x2="50.8" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="86.36" x2="7.62" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="OUT"/>
+<wire x1="7.62" y1="86.36" x2="7.62" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="VCC"/>
@@ -12058,9 +12062,13 @@ Source: Samtec TSW.pdf</description>
 <pinref part="C7" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="66.04" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
 <label x="25.4" y="71.12" size="1.778" layer="95"/>
-<pinref part="U1" gate="A" pin="IN"/>
-<wire x1="7.62" y1="101.6" x2="7.62" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="71.12" x2="25.4" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="71.12" x2="7.62" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="7.62" y1="78.74" x2="45.72" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="78.74" x2="45.72" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="91.44" x2="58.42" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="U1" gate="A" pin="IN"/>
+<wire x1="58.42" y1="91.44" x2="58.42" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="46.99" y1="180.34" x2="45.72" y2="180.34" width="0.1524" layer="91"/>
