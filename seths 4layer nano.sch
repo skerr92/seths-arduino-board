@@ -11180,6 +11180,10 @@ Source: Samtec TSW.pdf</description>
 <sheets>
 <sheet>
 <plain>
+<wire x1="-17.78" y1="215.9" x2="304.8" y2="215.9" width="0.1524" layer="94"/>
+<wire x1="304.8" y1="215.9" x2="304.8" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="304.8" y1="25.4" x2="-17.78" y2="25.4" width="0.1524" layer="94"/>
+<wire x1="-17.78" y1="25.4" x2="-17.78" y2="215.9" width="0.1524" layer="94"/>
 </plain>
 <instances>
 <instance part="USER" gate="G$1" x="149.86" y="114.3" smashed="yes">
